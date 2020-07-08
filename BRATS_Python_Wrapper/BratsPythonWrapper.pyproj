@@ -12,7 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>BratsPythonWrapper</Name>
     <RootNamespace>BRATS_Python_Wrapper</RootNamespace>
-    <TestFramework>none</TestFramework>
+    <TestFramework>Pytest</TestFramework>
     <UnitTestPattern>test*.py</UnitTestPattern>
     <UnitTestRootDirectory>.</UnitTestRootDirectory>
   </PropertyGroup>
@@ -29,6 +29,9 @@
     <Compile Include="brats.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="testcommands.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
