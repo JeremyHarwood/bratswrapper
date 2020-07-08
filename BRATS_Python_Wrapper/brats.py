@@ -78,7 +78,6 @@ class _Script(Bind):
 # Child class: handles multiprocessing for command files
 class _Multiexec(_Script):
     
-
     def __init__(self): 
         super(Multiexec, self).__init__()
 
