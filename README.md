@@ -20,5 +20,5 @@ Only Python errors are handled. Incorrect commands are ignored which may lead to
 unexpected results or failure to complete the run, particularly when setting
 paramaters within a task.
 It is therefore suggested that a manual test run is performed on a sample dataset
-by simply running BRATS, then copying and pasting the contents of the file into
-the terminal.
+by simply running BRATS, then copying and pasting the contents of the command 
+file into the terminal.
