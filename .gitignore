@@ -3,6 +3,11 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Custom VS exclude (for public projects)
+*.pyproj
+*.sln
+.vs/*
+
 # User-specific files
 *.rsuser
 *.suo
