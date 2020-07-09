@@ -8,6 +8,9 @@ are to be processed, with one command per line.
 
 Single core and multiprocessing are both supported.
 
+Only brats.py is required to allow usage, which can then be imported in the
+standard manner (#import brats).
+
 See bratswrapper_usageexample.py and accompanying .txt files for example usage.
 
 ***************************** IMPORTANT PLEASE READ *****************************
