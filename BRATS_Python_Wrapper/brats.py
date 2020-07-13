@@ -30,7 +30,6 @@ See bratswrapper_usageexample.py and accompanying .txt files for example usage.
 ##################################################################################
 """
 
-#pragma once
 import sys
 import os.path
 import subprocess
